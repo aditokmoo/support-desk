@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+.home-section .section-container {
+    display: flex;
+    margin: 150px 0;
+}
+
+.home-section .section-container .section {
+    width: 100%;
+}
+
+/* LEFT SECTION */
+.home-section .section-container .section-left h2 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.home-section .section-container .section-left p {
+    margin: 10px 0 20px 0;
+}
+
+.home-section .section-container .section-left .btn {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    background-color: #111;
+    width: 50%;
+    margin: 15px 0;
+    border: 2px solid #000;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.home-section .section-container .section-left .btn:hover {
+    opacity: .7;
+}
+
+.home-section .section-container .section-left .btn-new-ticket {
+    background-color: inherit;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.home-section .section-container .section-left .btn.btn-tickets {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+/* RIGHT SECTION */
+.home-section .section-container .section-right h1 {
+    font-weight: 900;
+    font-size: 3em;
+    font-family: Roboto;
+    width: 500px;
+    color: #111;
+    text-shadow: 2px 2px 0px #f2f78f, 5px 4px 0px rgba(0,0,0,0.15);
+}
+
+.home-section .section-container .section-right p {
+    line-height: 1.7;
+    margin: 30px 0;
+}
