@@ -1,0 +1,56 @@
+.ticket-form {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.ticket-form .ticket-form-section {
+    width: 500px;
+    display: block;
+}
+
+.ticket-form .ticket-form-section h1,
+.ticket-form .ticket-form-section p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.ticket-form .ticket-form-section form {
+    margin-top: 30px;
+}
+
+.ticket-form .ticket-form-section .input-container {
+    margin: 20px 0;
+    width: 100%;
+}
+
+.ticket-form .ticket-form-section .input-container label {
+    margin-bottom: 7px;
+    display: block;
+}
+
+.ticket-form .ticket-form-section .input-container input,
+.ticket-form .ticket-form-section .input-container textarea,
+.ticket-form .ticket-form-section .input-container select,
+.ticket-form .ticket-form-section .input-container button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.ticket-form .ticket-form-section .input-container button {
+    cursor: pointer;
+    background-color: #618c6d;
+    color: #fff;
+    transition: .3s;
+}
+
+.ticket-form .ticket-form-section .input-container button:hover {
+    opacity: .7;
+}
+
+.ticket-form .ticket-form-section .input-container textarea {
+    resize: none;
+    height: 100px;
+}
