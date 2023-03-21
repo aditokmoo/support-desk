@@ -1,0 +1,68 @@
+/* List */
+.ticket-header {
+    width: 700px;
+    margin: 20px auto;
+    position: relative;
+    background-color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #eee;
+}
+.ticket-header ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.ticket-header ul li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.ticket-header ul li:first-child {
+    margin: 0 100px;
+    padding: 20px 25px;
+    border-left: 1px solid #eee;
+}
+
+/* Tickets section */
+.tickets {
+    display: block;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.tickets .item {
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.tickets .item img {
+    border-right: 1px solid #ddd;
+    padding-right: 10px;
+}
+
+.tickets .item .content{
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 30px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.tickets .item .content span.product {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.tickets .item .content span.subject {
+    font-style: italic;
+    font-size: 14px;
+}

@@ -1,0 +1,13 @@
+.back-btn {
+    text-decoration: none;
+    color: #618c6d;
+    border: 1px solid #618c6d;
+    padding: 7px 15px;
+    margin: 20px 40px;
+    display: inline-flex;
+    font-size: 15px;
+    align-items: center;
+    gap: 5px;
+    border-radius: 6px;
+    position: absolute;
+}
